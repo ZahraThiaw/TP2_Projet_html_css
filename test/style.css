@@ -1,0 +1,81 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.stadium{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows:1fr;
+  height: 100vh;
+  width: 100vw;
+  background-color: #000;
+  border-radius: 30px;
+  box-sizing: border-box;
+  position: fixed;
+
+}
+.terrain{
+  position: fixed;
+  width: 1000px;
+  height: 500px;
+  background-color: #004704d0;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%);
+}
+.ranggauche{
+  position: absolute;
+  height: 94%;
+  width: 18%;
+  background-color: #006600;
+  top: 2%;
+  left: 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+.ranggauche1{
+  position: absolute;
+  width: 40px;
+  height: 100%;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.rangdroite{
+  position: absolute;
+  height: 94%;
+  width: 18%;
+  background-color: #006600;
+  top: 2%;
+  right: 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+.ranghaut{
+  position: absolute;
+  height: 18%;
+  width: 94%;
+  background-color: #006600;
+  top: 2%;
+  left: 2%;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.rangbas{
+  position: absolute;
+  height: 18%;
+  width: 94%;
+  background-color: #006600;
+  bottom: 2%;
+  left: 2%;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}

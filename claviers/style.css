@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 80vh;
+    display: block;
+    margin: 50px;
+   
+}
+ .container{
+     display: flex;
+     margin-top: 80px;
+     padding: 5px;
+     border: 2px solid black;
+     width: 100%;
+     background-color: whitesmoke;
+     border-radius: 15px;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     
+     
+ }
+
+ .row{
+    width: 100%;
+    height: 60px ;
+    margin: 1px;
+ }
+
+ .row0{
+   width: 100%;
+   height: 53px ;
+   margin: 1px;
+}
+
+ .col1{
+    margin: 0;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     button{
+        height:  80%;
+    }
+    margin-bottom: 0;
+ }
+
+ button{
+    color: white;
+    background-color: black;
+    width: 7%;
+    height: 55px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    margin: 1px;
+    box-shadow: 2px 2px 2px rgb(245, 244, 244) - 2px -2px 2px rgb(245, 244, 244);
+    cursor: pointer;
+ }
+
+ 
+ 
+ /* button:hover {
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+   transform: translateZ(5px);
+ }
+ 
+ button:active {
+   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+   transform: translateZ(10px);
+ } */
+
+ /* button:hover{
+    background-color: rgb(201, 183, 183);
+    color: black;
+ } */
+
+ button:active{
+    box-shadow: none;
+ }
+ .espace1{
+    width: 80%;
+    border-radius: 10px;
+ }
+
+ .col2{
+    margin: 6px 0 0 0;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     button{
+        height:  100%;
+    }
+ }
+
+
+ .delete{
+    width: 15%;
+    background-color: maroon;
+ }
+ .tab{
+    width: 10%;
+    background-color: maroon;
+ }
+
+ .caps{
+    width: 12%;
+    background-color: maroon;
+ }
+
+ .return{
+    width: 10%;
+    background-color: maroon;
+ }
+
+ .shift{
+    width: 14%;
+    background-color: maroon;
+ }
+
+ .command{
+    width: 10%;
+    background-color: maroon;
+ }
+
+ .espace{
+    width: 70%;
+ }
+
+ .espace2{
+    width: 24%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   button{
+    width: 50%;
+    height: 100%;
+}
+ }
+
+ .up{
+    width: 20%;
+ }
+ .int{
+   margin-top: 5px;
+   width: 100%;
+   height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }

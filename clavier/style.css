@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #706f6f;
+}
+.ligne1{
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.autreligne{
+    display: flex;
+    flex-direction: column;
+}
